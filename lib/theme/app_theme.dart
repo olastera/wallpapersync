@@ -113,7 +113,7 @@ class AppTheme {
               color: onSurfaceLight)),
 
       // Card theme - Adaptive Cards with minimal elevation
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData( // ¡Corrección aquí!
           color: surfaceLight,
           shadowColor: shadowLight,
           shape:
@@ -265,7 +265,7 @@ class AppTheme {
               fontSize: 22, fontWeight: FontWeight.w500, color: onSurfaceDark)),
 
       // Card theme - Adaptive Cards with minimal elevation
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData( // ¡Corrección aquí!
           color: Color(0xFF2B2930),
           shadowColor: shadowDark,
           shape:
