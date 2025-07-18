@@ -113,7 +113,7 @@ class AppTheme {
               color: onSurfaceLight)),
 
       // Card theme - Adaptive Cards with minimal elevation
-      cardTheme: CardThemeData( // ¡Corrección aquí!
+      cardTheme: CardThemeData( // Corregido: CardThemeData
           color: surfaceLight,
           shadowColor: shadowLight,
           shape:
@@ -179,7 +179,7 @@ class AppTheme {
       sliderTheme: const SliderThemeData(),
 
       // Tab bar theme
-      tabBarTheme: TabBarTheme(
+      tabBarTheme: TabBarThemeData( // Corregido: TabBarThemeData
           labelColor: primaryLight,
           unselectedLabelColor: onSurfaceVariantLight,
           indicatorColor: primaryLight,
@@ -265,7 +265,7 @@ class AppTheme {
               fontSize: 22, fontWeight: FontWeight.w500, color: onSurfaceDark)),
 
       // Card theme - Adaptive Cards with minimal elevation
-      cardTheme: CardThemeData( // ¡Corrección aquí!
+      cardTheme: CardThemeData( // Corregido: CardThemeData
           color: Color(0xFF2B2930),
           shadowColor: shadowDark,
           shape:
@@ -331,7 +331,7 @@ class AppTheme {
       sliderTheme: const SliderThemeData(),
 
       // Tab bar theme
-      tabBarTheme: TabBarTheme(
+      tabBarTheme: TabBarThemeData( // Corregido: TabBarThemeData
           labelColor: primaryDark,
           unselectedLabelColor: onSurfaceVariantDark,
           indicatorColor: primaryDark,
