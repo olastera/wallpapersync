@@ -66,7 +66,8 @@ class ThemeSelectionWidget extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: currentTheme == theme['value']
                           ? AppTheme.lightTheme.colorScheme.primaryContainer
-                          : AppTheme.lightTheme.colorScheme.surfaceContainerHighest,
+                          : AppTheme
+                              .lightTheme.colorScheme.surfaceContainerHighest,
                       borderRadius: BorderRadius.circular(3.w),
                     ),
                     child: Center(

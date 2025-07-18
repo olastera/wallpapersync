@@ -81,7 +81,8 @@ class ImageMetadataWidget extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: AppTheme.lightTheme.colorScheme.surfaceContainerHighest,
+                      color: AppTheme
+                          .lightTheme.colorScheme.surfaceContainerHighest,
                       shape: BoxShape.circle,
                     ),
                     child: CustomIconWidget(

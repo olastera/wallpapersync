@@ -89,7 +89,8 @@ class _FrequencyPickerWidgetState extends State<FrequencyPickerWidget> {
                         decoration: BoxDecoration(
                           color: _selectedFrequency == frequency['value']
                               ? AppTheme.lightTheme.colorScheme.primaryContainer
-                              : AppTheme.lightTheme.colorScheme.surfaceContainerHighest,
+                              : AppTheme.lightTheme.colorScheme
+                                  .surfaceContainerHighest,
                           borderRadius: BorderRadius.circular(3.w),
                         ),
                         child: Center(
